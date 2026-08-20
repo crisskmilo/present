@@ -1,0 +1,14 @@
+# Custom overrides for bmad-prd workflow
+# Committed to repository
+
+[workflow]
+# Always run live sync from the shared Google Doc before PRD activation and discovery
+activation_steps_prepend = [
+  "skill:bmad-sync-source-docs",
+]
+
+# Ensure the synced live proposal is persistently loaded into context
+persistent_facts = [
+  "file:{project-root}/docs/present-mvp-proposal.md",
+  "file:{project-root}/**/project-context.md",
+]
