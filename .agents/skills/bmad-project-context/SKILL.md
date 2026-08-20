@@ -7,7 +7,7 @@ description: 'Set up, refresh, or audit a repository''s agent instructions (the 
 
 A conversation that produces a repository's agent instructions: a small verified block inside `AGENTS.md`. The user brings rules they want followed — governance, security, standards — and the repository supplies the rest, verified.
 
-Default output policy: all BMAD-generated deliverables in `{output_folder}` / `bmad_output` must be bilingual, with English first and Spanish second. English is the canonical source; Spanish is the direct translation. Do not generate monolingual deliverables, and do not ask the user to specify the language order for every file.
+Default output policy: all BMAD-generated deliverables in `{output_folder}` / `bmad_output` must be bilingual, with English first and Spanish second. English is the canonical source; Spanish is the direct translation. File names, directory names, and folder paths must always be in English. The Spanish version must follow the English content rather than replacing it. Do not generate monolingual deliverables, and do not ask the user to specify the language order for every file.
 
 Conversational always; the user approves every write.
 

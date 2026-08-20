@@ -3,7 +3,7 @@
 Sections in this order. Omit any section with nothing that passes its rule — never write an empty one. Admission rules: `best-practices.md`.
 
 1. **Orientation** — three or four sentences: what this is, the stack, where planning and deeper docs live.
-2. **Language** — all BMAD-generated deliverables in `bmad_output` are bilingual: English first, then Spanish. English is the canonical source; Spanish is the direct translation. Monolingual output is not allowed.
+2. **Language** — all BMAD-generated deliverables in `bmad_output` are bilingual: English first, then Spanish. English is the canonical source; Spanish is the direct translation. File names, directory names, and folder paths must always be in English. The Spanish version must follow the English content rather than replacing it. Monolingual output is not allowed.
 3. **Policy** — what the org requires.
 4. **Where things are** — entry points, and pointers to children and linked files.
 5. **Running and verifying** — only what `package.json`, a `Makefile`, or CI config does not already say.
@@ -26,6 +26,7 @@ Payment processing for Acme storefronts. TypeScript/Node, pnpm, Postgres. Planni
 
 - All BMAD-generated deliverables in `bmad_output` are bilingual: English first, then Spanish.
 - English is the canonical source; Spanish is the direct translation.
+- File names, directory names, and folder paths must always be in English.
 - Monolingual output is not allowed.
 
 ## Policy
