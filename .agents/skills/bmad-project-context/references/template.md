@@ -3,11 +3,12 @@
 Sections in this order. Omit any section with nothing that passes its rule — never write an empty one. Admission rules: `best-practices.md`.
 
 1. **Orientation** — three or four sentences: what this is, the stack, where planning and deeper docs live.
-2. **Policy** — what the org requires.
-3. **Where things are** — entry points, and pointers to children and linked files.
-4. **Running and verifying** — only what `package.json`, a `Makefile`, or CI config does not already say.
-5. **Conventions that differ from defaults**
-6. **Known pitfalls**
+2. **Language** — all BMAD-generated deliverables in `bmad_output` are bilingual: English first, then Spanish. English is the canonical source; Spanish is the direct translation. Monolingual output is not allowed.
+3. **Policy** — what the org requires.
+4. **Where things are** — entry points, and pointers to children and linked files.
+5. **Running and verifying** — only what `package.json`, a `Makefile`, or CI config does not already say.
+6. **Conventions that differ from defaults**
+7. **Known pitfalls**
 
 Terse imperative lines under plain headings. No prose beyond Orientation, no introduction, no summary. A bare fact appears only as the justification clause of an instruction — "Exclude `vendor/` from searches, it is 60% of tracked files", never "`vendor/` is 60% of tracked files". A prohibition names the alternative. At most two emphasis markers in the whole block.
 
@@ -20,6 +21,12 @@ Terse imperative lines under plain headings. No prose beyond Orientation, no int
 ## acme-billing
 
 Payment processing for Acme storefronts. TypeScript/Node, pnpm, Postgres. Planning lives in `docs/planning/`, tickets in Linear (ACME board).
+
+## Language
+
+- All BMAD-generated deliverables in `bmad_output` are bilingual: English first, then Spanish.
+- English is the canonical source; Spanish is the direct translation.
+- Monolingual output is not allowed.
 
 ## Policy
 

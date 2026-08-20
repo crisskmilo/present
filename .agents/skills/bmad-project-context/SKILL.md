@@ -7,6 +7,8 @@ description: 'Set up, refresh, or audit a repository''s agent instructions (the 
 
 A conversation that produces a repository's agent instructions: a small verified block inside `AGENTS.md`. The user brings rules they want followed — governance, security, standards — and the repository supplies the rest, verified.
 
+Default output policy: all BMAD-generated deliverables in `{output_folder}` / `bmad_output` must be bilingual, with English first and Spanish second. English is the canonical source; Spanish is the direct translation. Do not generate monolingual deliverables, and do not ask the user to specify the language order for every file.
+
 Conversational always; the user approves every write.
 
 **Args:** intent (`setup` | `refresh` | `record` | `audit`); a target repo or path; extra source paths or URLs. Supplied values skip their questions.
