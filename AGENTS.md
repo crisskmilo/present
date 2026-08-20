@@ -47,6 +47,7 @@ Digital mental health accompaniment platform providing responsible, vetted conte
 - Never create files or folders with Spanish names; all filesystem paths must be in English.
 - Always check `AGENTS.md` and read project context before modifying code or planning artifacts.
 - **Required reading for BMAD context**: Always read `.agents/skills/bmad-project-context/SKILL.md` and `.agents/skills/bmad-project-context/references/template.md` to understand BMAD workflows, templates, and project context guidelines.
+- **Google Docs requirements sync**: Always check the shared Google Doc at https://docs.google.com/document/d/1ITIkSfXrBsBcQUikDZKATdGbFsCSNM7so-M235DBM1I/edit?usp=sharing for new requirements during this phase. The connection is pre-configured; credentials are stored at `C:\Users\camil\OneDrive - ENDAVA\Documents\Repository\present\resources\credential_google_docs.json` (Linux/Mac path: `/mnt/c/Users/camil/OneDrive - ENDAVA/Documents/Repository/present/resources/credential_google_docs.json`). This file must remain gitignored.
 - When generating deliverables, ensure English is primary and Spanish follows directly.
 
 <!-- /bmad:context -->
