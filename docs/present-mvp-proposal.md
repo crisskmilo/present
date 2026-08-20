@@ -1,156 +1,183 @@
-# PRESENTE - Digital Mental Health Accompaniment Initiative
-## MVP Proposal and Initiative Document
-
-- **Live Source Document:** [Google Docs Link](https://docs.google.com/document/d/1ITIkSfXrBsBcQUikDZKATdGbFsCSNM7so-M235DBM1I/edit?usp=sharing)
-- **Author:** Cristian Camilo Rojas Estrada
-- **Date:** 2026-08-07
-- **Slogan:** *PRESENTE - Y RECUERDA QUE NO ESTAMOS SOLOS*
+# PRESENTE
+### Digital Mental Health Accompaniment Initiative
+**PRESENTE - AND REMEMBER YOU ARE NOT ALONE**  
+*Initiative Proposal & MVP Technical Specification*  
+**Author:** Cristian Camilo Rojas Estrada (Systems Engineer / Fullstack Developer)  
+**Date:** August 2026  
+**Proposed Institutional Partner:** Clínica San Juan de Dios (Manizales)  
 
 ---
 
 ## Introduction
-Mental health is part of everyone's life. Throughout life, we may experience anxiety, sadness, uncertainty, loneliness, grief, conflicts, significant changes, family difficulties, personal concerns, or various situations affecting how we feel, think, and relate to our surroundings.
-PRESENTE emerges as an independent digital platform that organizes, produces, publishes, and distributes content in an accessible, simple, and responsible manner to accompany individuals through their mental health journeys.
-"PRESENTE - Y RECUERDA QUE NO ESTAMOS SOLOS".
+
+Mental health is part of everyone's life.
+
+Throughout life, we may experience anxiety, sadness, uncertainty, loneliness, grief, conflicts, major life transitions, family difficulties, or personal concerns that affect how we feel, think, and relate to our surroundings.
+
+Each person experiences these moments uniquely. Some seek professional therapy; others find strength in family, community, or spirituality. Some do not know how to ask for help, while others have completed inpatient care and need to sustain their progress.
+
+From this reality emerges **PRESENTE**: an independent digital platform designed to organize, produce, publish, and distribute mental health accompaniment content in a simple, accessible, and responsible manner.
+
+**"PRESENTE - AND REMEMBER YOU ARE NOT ALONE."**
 
 ---
 
 ## 1. Initiative Origin
-Originating from the reflection of what happens after finishing an inpatient program, treatment cycle, or therapeutic process ("What happens next?").
-It addresses the post-care stage and expands to:
-- People who haven't sought professional help yet.
-- People facing isolation or difficult life stages.
-- Families seeking guidance on how to accompany loved ones.
-- Promoting the continuity of therapeutic processes without attempting clinical evaluations or diagnosis.
+
+The initiative originates from reflections on post-care: **"What happens after finishing an inpatient cycle or therapeutic process?"**
+
+Upon returning to daily routines, individuals need continuity, reminders of coping mechanisms, and support networks. PRESENTE expands this care to also reach individuals in isolation and families seeking guidance.
 
 ---
 
 ## 2. Concept of PRESENTE
-"Estar presente" (being present) means accompanying people where they are. It is not an exclusive space for patients; it is open to all individuals regardless of their current life stage.
+
+Being present means meeting people where they are. It is not exclusively for diagnosed patients; it is open to all individuals looking to nurture their mental well-being.
 
 ---
 
 ## 3. Purpose
+
 To build an accessible digital platform connecting individuals with mental health, well-being, and accompaniment content created and published by authorized professionals and contributors.
 
 ---
 
 ## 4. General Objective
-Build PRESENTE: a digital platform facilitating access to content related to mental health and well-being with an architecture designed to manage, organize, and distribute professional-vetted material.
+
+Construct PRESENTE: a structured digital platform facilitating access to responsible mental health content with an architecture designed to organize and distribute multi-format resources.
 
 ---
 
 ## 5. Specific Objectives
-- Develop a functional MVP for digital accompaniment and mental health content dissemination.
-- Enable multi-format access: video, audio, text, images, and downloadable resources.
-- Content categorization by topics, formats, and contributor profiles.
-- Role-based content administration system.
-- Multi-channel integration (Web, YouTube, TikTok / Social Networks).
-- Simple, low-friction UX tailored for users experiencing fatigue, anxiety, or low concentration.
-- Interdisciplinary domains: psychology, well-being, spirituality/pastoral, and selected lived experiences.
-- Reinforce awareness on seeking professional therapeutic care.
-- Progressive community building with moderation and privacy guardrails.
+
+- Deliver a functional, lightweight MVP.
+- Provide multi-format access (video, audio, text, downloadable PDFs).
+- Categorize content by topics, formats, and contributor profiles.
+- Implement a role-based content management system (RBAC).
+- Integrate multi-channel discovery (Web, YouTube, TikTok/Shorts).
+- Ensure a low-friction, accessible UX for users with cognitive fatigue or anxiety.
+- Promote awareness of the importance of professional therapy.
+- Build a safe, moderated community around vetted content.
 
 ---
 
 ## 6. Technology as Added Value
-- Not just a content producer, but an independent digital infrastructure.
-- Re-purposing single core topics into multi-format assets: video episodes, audio/podcasts, social clips, summary articles, and downloadable action guides.
-- Centralized knowledge hub preventing fragmentation across external platforms.
+
+PRESENTE is not merely a content creator; it is an independent digital infrastructure. A single core topic (e.g., a conversation between a psychologist and a pastoral leader) is re-purposed into:
+- Full video episode (YouTube)
+- Audio podcast (for commuting/listening)
+- Short social clips (TikTok / Reels)
+- Written summary and actionable guide (PDF)
 
 ---
 
-## 7. Conceptual System Architecture
-- **Presentation Layer:** Simple, responsive web interface (Mobile & Desktop).
-- **Application Layer:** Backend managing authenticated users, content catalogues, categories, and publishing workflows.
-- **Data Layer:** Structured relational/document database.
-- **Content Management System (CMS):** Create, review, publish, update, and archive content.
-- **RBAC (Role-Based Access Control):** Granular permissions.
-- **Multimedia Integration:** Embeds and external hosting (e.g., YouTube) structured within the app.
-- **Distribution Channels:** Synchronized social media presence.
+## 7. Conceptual Architecture
+
+- **Presentation Layer:** Responsive web interface (Mobile & Desktop).
+- **Application Layer:** Backend managing authenticated users, catalogues, and workflows.
+- **Data Layer:** Relational database storing structured content and metrics.
+- **CMS & RBAC:** Granular role-based permissions (Admin, Authorized Publishers, Users).
+- **Multimedia Integration:** YouTube embeds and cloud object storage.
 
 ---
 
 ## 8. Publishing Model & Access Control
-Not an open social network. Content publishing is strictly controlled:
-- **Admin:** User management, category management, content review/approval/take-down, platform moderation.
-- **Authorized Publisher:** Psychologists, psychiatrists, occupational therapists, pastoral leaders, approved specialists.
-- **User:** View/listen/read content, download authorized resources, explore categories, participate in controlled/moderated interactions.
-- *Explicitly excluded for users in MVP:* Unmoderated posting, raw file uploads, direct private messaging.
+
+- **Admin:** Full platform moderation, category management, content approval.
+- **Authorized Publisher:** Psychologists, psychiatrists, pastoral leaders, occupational therapists.
+- **User:** Browse, read, listen, watch, and download authorized materials. Unmoderated posting and raw file uploads are explicitly excluded in the MVP.
 
 ---
 
 ## 9. PRESENTE Community
-A safe, supportive digital environment centered on vetted content where users participate through moderated comments, reactions, and structured activities.
+
+A safe, curated digital space where users interact through moderated comments, reactions, and structured exercises.
 
 ---
 
-## 10. Initial Content Categories
-- **Psychology & Mental Health:** Understanding emotions, sleep hygiene, crisis management, coping mechanisms, recovery routines.
-- **Spirituality & Pastoral:** Life meaning, purpose, hope, reflection, interfaith and non-dogmatic respect.
-- **Well-being:** Meditation, breathwork, rest, healthy habits, occupational therapy, creative expression.
-- **Conversations / Podcasts:** Interdisciplinary interviews.
-- **Lived Experiences:** Curated, respectful, voluntary testimonials.
+## 10. Content Pillars
+
+1. **Psychology & Mental Health:** Emotional regulation, sleep hygiene, crisis coping, recovery routines.
+2. **Spirituality & Pastoral:** Life purpose, hope, reflection, interfaith respect.
+3. **Well-being & Occupational Therapy:** Mindfulness, breathing exercises, healthy habits, creative expression.
+4. **Family Guides & Lived Experiences:** Caregiver guidance and curated recovery stories.
 
 ---
 
-## 11. Multimedia Strategy
-One source recording -> Multiple distributed assets (Full Podcast, Video Episode, Audio Only, Short-form clips for TikTok/Reels, Downloadable PDFs).
+## 11. Multimedia & Social Media Strategy
+
+Social channels (TikTok, YouTube) act as discovery touchpoints, while the PRESENTE platform serves as the central hub for deep dives and tools.
 
 ---
 
-## 12. Social Media Ecosystem
-- **TikTok:** Discovery, short reflections, bite-sized takeaways.
-- **YouTube:** Full podcasts, interviews, live streams.
-- **PRESENTE Web:** Structured home for deep-dives, tools, and organized catalogues.
+## 12. User Experience (UX) Principles
+
+Intent-based navigation (*"What are you looking for today?"*), minimal cognitive friction, high contrast, and mobile-first responsiveness.
 
 ---
 
-## 13. User Experience (UX) Principles
-- Intent-based navigation: *"What are you looking for today?"* (Listen, Find a tool, Read a reflection, Accompany someone, Learn more).
-- Minimal steps, high legibility, accessible color contrast, mobile-first responsiveness.
+## 13. Institutional Partnerships
+
+**Clínica San Juan de Dios (Manizales)** serves as the incubator and initial collaborative space, while PRESENTE retains independent project governance.
 
 ---
 
-## 14. Institutional Partnerships
-- Initial collaborative incubator: **Clínica San Juan de Dios de Manizales**.
-- Independent governance: Flexible to partner with independent professionals, universities, and health foundations.
+## 14. Scope & Clinical Boundaries
+
+PRESENTE provides accompaniment and psychoeducation. **It does NOT provide clinical diagnoses or replace emergency medical/psychiatric care.**
 
 ---
 
-## 15. Content Principles
-Responsibility, Respect, Human-centered language, Diversity, Evidence-informed knowledge, Strict Privacy, and Active Encouragement of Professional Therapy.
+## 15. Phased Roadmap & Sustainability
+
+Built in 6 progressive phases (Definition, MVP Development, Seed Content, Launch, Validation, Evolution). Initial operations run entirely on **$0 USD free-tier infrastructure**.
+
+---
+---
+
+# 16. Detailed Technical Architecture, Multiplatform Ecosystem & Zero-Cost Deployment ($0 USD)
+
+To guarantee technical excellence and complete financial transparency for **Clínica San Juan de Dios**, the system engineering specifications are outlined below:
 
 ---
 
-## 16. Scope & Clinical Boundaries
-- Does NOT provide clinical diagnoses.
-- Does NOT replace individualized medical or psychotherapeutic treatment.
-- Does NOT offer emergency crisis hotline services directly inside the software.
+### 16.1. Multiplatform Delivery: Web App and Hybrid Mobile App (Android & iOS)
+
+Built with **Angular** and **Capacitor**, enabling three distribution channels from a single codebase:
+
+1. **Responsive Web App / PWA:** Instant browser access without requiring device storage.
+2. **Android Mobile App (.apk / .aab):** Native package for Android smartphones and tablets.
+3. **iOS Mobile App (.ipa):** Native package for iPhone and iPad via TestFlight / App Store.
+
+![Multiplatform Architecture](assets/multiplatform-web-app-diagram.jpg)
 
 ---
 
-## 17. MVP Scope
-- **Included:** Home discovery feed, categorized content directory, video/audio players, downloadable resources viewer, author/contributor profile pages, admin CMS & publication approval system.
-- **Explicitly Deferred:** Unmoderated open walls, peer-to-peer unmonitored chat, electronic health record (EHR) management.
+### 16.2. Software Architecture: Clean Architecture with Inversion of Control (IoC)
+
+The backend is built in **Python (FastAPI)** following Clean Architecture principles:
+
+- **1. Domain Core (`src/domain/`):** Pure enterprise entities, domain exceptions, and repository contracts (`abc.ABC`).
+- **2. Application Layer (`src/application/`):** Use cases and input/output DTO validation schemas (`Pydantic`).
+- **3. Infrastructure Layer (`src/infrastructure/`):** PostgreSQL database with async SQLAlchemy 2.0, storage adapters, and AI clients.
+- **4. Presentation Layer (`src/api/`):** FastAPI REST routers with Inversion of Control (`Depends`) for dependency injection.
+
+![Clean Architecture Diagram](assets/clean-architecture-diagram.jpg)
 
 ---
 
-## 18. Phased Development Roadmap
-- Phase 1: Definition & PRD Alignment.
-- Phase 2: MVP Software Architecture & Development.
-- Phase 3: Seed Content Production (Pastoral + Psychology).
-- Phase 4: Pilot Launch & Distribution.
-- Phase 5: Metric Tracking & Qualitative Validation.
-- Phase 6: Iterative Evolution.
+### 16.3. Cloud Server Hosting, Free PaaS & Institutional Financial Guarantee ($0 USD)
 
----
+| Component | Free Provider | Cost | Operational Guarantee for the Clinic |
+| :--- | :--- | :--- | :--- |
+| **Frontend Web** | **Vercel / Cloudflare Pages** | **$0 USD (Free)** | Global CDN, automated SSL HTTPS, zero hosting fees. |
+| **Backend API (PaaS)** | **Render.com / Oracle Always Free** | **$0 USD (Free)** | Modern PaaS alternative to Heroku running FastAPI without monthly charges. |
+| **Database** | **Supabase (PostgreSQL)** | **$0 USD (Free)** | Managed relational database with 500 MB storage and automated backups. |
+| **Artificial Intelligence** | **Google AI Studio (Gemini 2.0 Flash)** | **$0 USD (Free)** | 1M tokens/call free quota for therapeutic summaries and categorization. |
+| **Multimedia Hosting** | **YouTube Embeds + Supabase** | **$0 USD (Free)** | Streaming video and audio without incurring server bandwidth costs. |
 
-## 19. Sustainability & Social Impact
-Low initial operational footprint, moving towards institutional grants, ethical sponsorships, and charitable donations supporting vulnerable patients and families at Clínica San Juan de Dios.
+![Zero Cost Deployment Diagram](assets/zero-cost-deployment-diagram.jpg)
 
----
-
-## 20. Initial Pilot
-- Core Team: Lead Systems Engineer & Project Creator, Pastoral Leader, Licensed Clinical Psychologist.
-- Pilot Topic: *"After a mental health process: How to move forward?"*
+> [!IMPORTANT]
+> **Financial Guarantee for Clínica San Juan de Dios:**  
+> Clínica San Juan de Dios **assumes ZERO costs for servers, software licensing, databases, or technical maintenance**. The digital infrastructure is 100% self-sustained and independently managed.
